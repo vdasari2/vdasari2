@@ -1,4 +1,4 @@
-💼 Professional Summary
+💼 Professional Summary: 
 Experienced Data Analyst and Engineer skilled in SQL, Python, Pandas, Tableau, ML Algorithms, AWS, and GCP. At Lending Point, optimized credit risk and growth strategies, actively contributing to Business Intelligence (BI), Product Management, and Partner Engagement initiatives. At National Grid, modernized data infrastructure with Snowflake Data Warehouse and data ingestion flows from SSIS using Matillion ETL. Proficient in visualization and tools like Knowledge Studio, DOMO, and Salesforce for generating actionable insights.
 
 🛠 Technical Skills
