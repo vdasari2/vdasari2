@@ -20,7 +20,7 @@ Knowledge Studio, DOMO, Grafana, JIRA, Confluence, Salesforce Sales Cloud, GIT, 
 <b> 💼 Professional Experience </b> 
 <br> <b> Data Analyst, Product and Credit Risk Analytics </b> 
 <br> <b> Lending Point, United States </b>
-<b> Jun 2023 – Present </b> 
+<br> <b> Jun 2023 – Present </b> 
 
 <br> * Performed comprehensive credit risk assessment on a $100M loan portfolio using Python, Pandas, NumPy, BigQuery SQL, and Tableau.
 <br> * Employed Decision Trees, Random Forests, XGBoost with data from Bureau, Clarity, and LexisNexis to identify key risk indicators, resulting in a 17% reduction in potential losses through targeted risk mitigation strategies.
@@ -33,7 +33,7 @@ Knowledge Studio, DOMO, Grafana, JIRA, Confluence, Salesforce Sales Cloud, GIT, 
 
 <b> Data Engineer </b> 
 <br> <b> National Grid, United States </b> 
-<b> Jan 2023 – Jun 2023 </b> 
+<br> <b> Jan 2023 – Jun 2023 </b> 
 
 <br> * Part of modernizing National Grid’s DWH platform by migrating legacy Oracle DWH to Snowflake Cloud Datawarehouse using SQL and sunset MicroStrategy by migrating reports to Power BI project.
 <br> * Migration of 47 Downstate DataMart’s – Active (14), Inactive (33) – Lift and shift of 33 inactive DataMart’s from 8370 tables into Snowflake staging layer.
