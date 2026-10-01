@@ -6,37 +6,63 @@
 https://6718760913824a2892d7e4af--glistening-duckanoo-eb3e64.netlify.app/
 
 <b> 🛠 Technical Skills: </b>
-<br> <b> Languages and Python Libraries: </b>
-SQL, Python, NumPy, Pandas, Matplotlib, Beautiful Soup, Selenium
+<br> <b> Machine Learning & Statistical Modeling: </b>
+Supervised Learning (XGBoost, LightGBM, Random Forest, Logistic Regression), Credit Scorecard Calibration, WOE/IV Binning, Survival Analysis (Cox Proportional Hazards), Anomaly Detection (Isolation Forest, DBSCAN), Feature Selection & Interpretability (SHAP, PDP, Permutation Importance)
 
-<b> Databases, Statistical, and Visualization Tools: </b> 
-MS SQL, MongoDB, Snowflake DWH, SSIS, Matillion ETL, Power BI, Tableau, Apache Airflow
+<b> Deep Learning, NLP & Transformers: </b>
+Transformers (Hugging Face, BERT, RoBERTa), Sentence Transformers, Vector Embeddings & Similarity Search (FAISS, ChromaDB), Sequence Modelling, PyTorch (Foundational)
 
-<b> Cloud Technologies: </b> 
-AWS (S3, EC2, RDS, Redshift, etc.), GCP (BigQuery)
+<b> Applied GenAI & LLM Orchestration: </b>
+Retrieval-Augmented Generation (RAG), LLM Application Frameworks (LangChain, LlamaIndex), Prompt Engineering, Function Calling/Tool Use, Structured Output Parsing & Validation
 
-<b> Other Tools: </b> 
-Knowledge Studio, DOMO, Grafana, JIRA, Confluence, Salesforce Sales Cloud, GIT, Postman
+<b> Experimentation & Causal Inference: </b>
+Champion/Challenger Frameworks, Quasi-Experimentation, A/B Testing, Counterfactual Analysis, Hypothesis Testing, Swap Set Analysis
+
+<b> Model Governance & Production Metrics: </b>
+Population Stability Index (PSI), Characteristic Selectivity Index (CSI), KS Statistic, Gini Coefficient, AUC-ROC, PR-AUC, Out-of-Time Validation, Adverse Action Code Generation
+
+<b> Languages and Core Libraries: </b>
+Python (Scikit-Learn, PySpark, Pandas, NumPy, Statsmodels, SciPy), SQL
+
+<b> Data Systems & Cloud Infrastructure: </b> 
+dbt, Apache Airflow, Apache Spark, Snowflake, Databricks, AWS (S3, Redshift, Glue, Bedrock), Git/GitHub, Docker, Tableau, Looker, DOMO
 
 <b> 💼 Professional Experience </b> 
-<br> <b> Data Analyst, Product and Credit Risk Analytics </b> 
-<br> <b> Lending Point, United States </b>
-<br> <b> Jun 2023 – Present </b> 
+<br> <b> Senior Analyst - Product & Credit Risk </b> 
+<br> <b> Marqeta, Atlanta, GA (Remote) </b>
+<br> <b> Feb 2026 – Present </b> 
 
-<br> * Performed comprehensive credit risk assessment on a $100M loan portfolio using Python, Pandas, NumPy, BigQuery SQL, and Tableau.
-<br> * Employed Decision Trees, Random Forests, XGBoost with data from Bureau, Clarity, and LexisNexis to identify key risk indicators, resulting in a 17% reduction in potential losses through targeted risk mitigation strategies.
-<br> * Leveraged CK LB MBE (Credit Karma Model Building Environment) and Jupyter Notebooks for data preprocessing and analysis of Equifax, TU, and Experian datasets, identifying credit attributes contributing to higher delinquency rates.
-<br> * Utilized Chi-square tests, ANOVA, and Recursive Feature Elimination (RFE) to validate the statistical significance of variables, ensuring model reliability and optimizing feature selection.
-<br> * Implemented K-means and DBSCAN clustering techniques to segment customers based on various credit bureau attributes, refining loan categorization and improving risk differentiation.
-<br> * Developed data-driven risk strategies and revamped grading mechanisms using swap sets, cohort analysis, and time series analysis. Reduced overall risk exposure by 12% by optimizing key financial metrics such as ALR, RAY, and Delinquency %.
-<br> * Utilized GCP BigQuery for client reporting file extraction and automated daily/monthly workflows using Power Automate and Apache Airflow, reducing manual reporting time by 70%.
-<br> * Constructed and managed comprehensive DOMO and Tableau dashboards, leading to a 12% improvement in identifying at-risk loans at various delinquency stages (FPM 1/15 and 30/60/90/120 days past due).
+<br> * Formulated and deployed automated risk underwriting rules, velocity limits, and credit line policies across consumer and commercial card programs, balancing transaction approval throughput with chargeback and default mitigation.
+<br> * Building a V1 LightGBM/XGBoost acquisition score for consumer portfolios, engineered orthogonal to bureau scores to capture incremental risk separation, integrating Experian Premier & Trended 3D attributes with WOE binning, out-of-time validation, and tuned hyperparameters; proving separation with KS, Gini/AUC, lift, and swap set analysis against live decisioning.
+<br> * Building an automated validation harness tracking KS, AUC, PSI, Lift, PDP, and swap set deltas versus champion decisioning; running champion/challenger experiments with auto-generated adverse action reason codes and audit-ready documentation for model governance.
+<br> * Engineered data transformation models (Bronze -> Silver -> Gold) using dbt, Apache Airflow, PySpark, and SQL; automated ingestion of high-velocity decision logs and payment payloads to power real-time detective controls, risk alerts, and automated reconciliation across core ledger systems.
+<br> * Engineered an LLM-assisted investigative system using structured prompt pipelines and contextual data retrieval, synthesizing disparate transaction streams into audit dossiers and cutting manual triage latency by 40%.
+<br> * Constructed centralized Tableau and DOMO dashboards tracking product health and portfolio indicators, including vintage loss curves (FPM 1/15, 30+ DPD), revolving utilization, spend velocity, and application funnel conversion rates.
+
+<b> Senior Analyst, Product & Credit Risk (Promoted: Analyst → Senior Analyst) </b> 
+<br> <b> LendingPoint, Atlanta, GA </b>
+<br> <b> Jun 2023 – Feb 2026 </b> 
+
+<br> * Enhanced and maintained the production codebase powering the Credit Karma Marketplace Building Environment (CK LB MBE) and Experian Activate; engineered PySpark and SQL pipelines transforming multi-bureau data (Experian, Equifax, TransUnion) into optimized feature inputs driving underwriting models, automated pre-qualification logic, risk segmentation, and offer-matching strategies.
+<br> * Developed and deployed a GBM classifier in the Credit Karma Model Building Environment, combining bureau and third-party cash flow signals to pre-screen applicant fundability. Reduced backend underwriting declines by 6% and lifted upstream pull-through and funding rates while preserving top-of-funnel approval volume.
+<br> * Modeled lifetime credit loss curves (PD × LGD × EAD) using vintage static pool roll rates, Markov transition matrices, and Cox proportional hazard survival models to project multi-horizon NCOs and stress-test reserve sizing under macro shock scenarios (CECL).
+<br> * Structured champion-challenger experimentation frameworks to evaluate credit underwriting cut-off shifts and APR pricing elasticity, expanding loan approval rates by 12% without increasing baseline 60+ DPD delinquencies.
+<br> * Deployed SHAP-based model interpretability frameworks to produce automated adverse action reason codes and ensure regulatory compliance with CFPB guidelines.
 
 <b> Data Engineer </b> 
-<br> <b> National Grid, United States </b> 
+<br> <b> National Grid, Waltham, MA (Remote) </b> 
 <br> <b> Jan 2023 – Jun 2023 </b> 
 
-<br> * Part of modernizing National Grid’s DWH platform by migrating legacy Oracle DWH to Snowflake Cloud Datawarehouse using SQL and sunset MicroStrategy by migrating reports to Power BI project.
-<br> * Migration of 47 Downstate DataMart’s – Active (14), Inactive (33) – Lift and shift of 33 inactive DataMart’s from 8370 tables into Snowflake staging layer.
-<br> * Migrated all 688 active data ingestion flows from SSIS to Matillion ETL using Python and SQL. Additionally, leveraged the DBT (Data Build Tool) framework to manage and orchestrate transformation workflows in Snowflake, ensuring clean and reliable data for analytics purposes.
-<br> * Collaborated with Project Managers and Developers to design ETL solutions, leading to a 50% increase in report generation speed and a 25% improvement in data quality for analytics deliverables.
+<br> * Architected scalable PySpark and SQL ETL pipelines to ingest and standardize terabytes of operational asset telemetry and smart-meter time-series data into cloud data warehouse environments.
+<br> * Engineered automated unit and regression testing suites across transformation jobs, ensuring 99.8% data accuracy for downstream forecasting models and operational reporting.
+
+<b> Data Science Analyst </b> 
+<br> <b> Kanor Systems Inc, Hyderabad, India </b> 
+<br> <b> Jul 2020 – Jun 2021 </b> 
+
+<br> * Applied Scikit-Learn classification algorithms (Logistic Regression, Random Forest) to assess customer transaction trends, engineering baseline behavioral features that lifted customer retention targeting accuracy by 18%.
+<br> * Authored complex SQL procedures, subqueries, and automated reporting pipelines, optimizing database read latencies by 25% across relational data repositories.
+
+<b> 🎓 Education </b> 
+<br> <b> Arizona State University, Tempe, AZ </b> 
+<br> Master's in Computer Science (Aug 2021 – Dec 2022), GPA 3.85
