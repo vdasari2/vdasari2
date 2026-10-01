@@ -1,5 +1,6 @@
 <b>  💼 Professional Summary: </b> 
-<br> Data Scientist and Analyst with expertise in SQL, Python, and advanced machine learning algorithms, focused on credit risk analytics, data engineering, and business intelligence. Proven ability to optimize risk strategies, build predictive models, and enhance data infrastructure using cloud platforms such as AWS and GCP. Skilled in developing and automating data pipelines, creating interactive dashboards, and deploying end-to-end ML solutions. Adept at leveraging statistical techniques and ML models to generate actionable insights, drive strategic decision-making, and mitigate operational risks.
+<br> Data Scientist with 4+ years of experience engineering predictive models, scalable machine learning pipelines, and experimentation frameworks across consumer credit, loan originations, and digital payments ecosystems. Specialized in statistical modeling (Probability of Default, loss estimation), scorecard calibration, underwriting policy strategy, automated anomaly detection, and high-throughput feature pipelines using Python, PySpark, and SQL. Proven track record architecting partner decisioning platforms (Credit Karma/Experian), designing quasi-experiments that expand approval elasticity, implementing robust data infrastructure (dbt/Airflow), and deploying applied GenAI automations to streamline complex operational workflows.
+
 
 <b>  💼 Portfolio Website: </b> 
 https://6718760913824a2892d7e4af--glistening-duckanoo-eb3e64.netlify.app/
